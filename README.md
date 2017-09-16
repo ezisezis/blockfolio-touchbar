@@ -1,5 +1,5 @@
 # Blockfolio for your touch bar
-A simple script that retrieves your blockfolio balance and displays it in touch bar.
+A simple script that retrieves your blockfolio balance and displays it in touch bar. When icon is pressed, it displays the portfolio value in BTC. Then switches back to default.
 
 ![touchbar screenshot](https://github.com/ezisezis/blockfolio-touchbar/blob/master/touchbar.png)
 ## Installation
@@ -17,6 +17,8 @@ A simple script that retrieves your blockfolio balance and displays it in touch 
  - ```git clone git@github.com:ezisezis/blockfolio-touchbar.git```
  - ```cd blockfolio-touchbar```
  - ```npm install```
+ - ```chmod +x wrapper.sh```
 4.  Open configuration.js in any text editor and change the deviceID to the one found in Blockfolio. You can see that in the app by opening it and navigating to upper right corner (the three vertical dots) and at the bottom. You can also "Copy your device ID".
 5.  Download and install Better Touch Tool from here: https://www.boastr.net/downloads/ 
-6. 
+6. Once installed, open preferences from the menu bar icon. and go to Touch bar -> Manage Presets -> Import -> Select the blockfolio.json file that is part of this repo and now you should see the items in touch bar. It automatically adds to icons - one for dollar and one for euro pair, remove the one you don't need. If you cloned the repository in another location, then you will have to change paths in JSON file ```BTTTouchBarAppleScriptString``` attribute before importing them. 
+7. Optionally add extra presets to display the value of other crypto currencies - https://github.com/krunkosaurus/bettertouchtool-crypto

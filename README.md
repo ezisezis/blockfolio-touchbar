@@ -1,7 +1,7 @@
 # Blockfolio for your touch bar
 A simple script that retrieves your blockfolio balance and displays it in touch bar.
 
-![yaya](https://github.com/ezisezis/blockfolio-touchbar/blob/master/touchbar.png)
+![touchbar screenshot](https://github.com/ezisezis/blockfolio-touchbar/blob/master/touchbar.png)
 ## Installation
 ### Things you will need
  - Macbook Pro with a touch bar
@@ -18,4 +18,5 @@ A simple script that retrieves your blockfolio balance and displays it in touch 
  - ```cd blockfolio-touchbar```
  - ```npm install```
 4.  Open configuration.js in any text editor and change the deviceID to the one found in Blockfolio. You can see that in the app by opening it and navigating to upper right corner (the three vertical dots) and at the bottom. You can also "Copy your device ID".
-5.  
+5.  Download and install Better Touch Tool from here: https://www.boastr.net/downloads/ 
+6. 

@@ -1,6 +1,7 @@
 # Blockfolio for your touch bar
 A simple script that retrieves your blockfolio balance and displays it in touch bar.
-![yaya](http://i1054.photobucket.com/albums/s496/azyrock/touchbar_zpss5ghyybb.png)
+
+![yaya](https://github.com/ezisezis/blockfolio-touchbar/blob/master/touchbar.png)
 ## Installation
 ### Things you will need
  - Macbook Pro with a touch bar
